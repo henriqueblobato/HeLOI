@@ -1,8 +1,8 @@
 # HeLOI
 
-Recognition of user typing time for system authentication using linear regression
-
 Reconhecimento de tempo de digitação do usuário para autenticação em sistema utilizando regressao linear
+
+Recognition of user typing time for system authentication using linear regression
 
 Признание времени ввода пользователя для аутентификации системы с использованием линейной регрессии
 
