@@ -62,6 +62,8 @@ with open('data.txt', 'w') as arq:
 
 # for key,secret in data:
 #     print('Combination:', key, '\t', 'Value:', secret)
+# for i in a data:
+#     print(data[i])
 
 termios.tcsetattr(sys.stdin, termios.TCSADRAIN, orig_settings)
 
