@@ -7,6 +7,11 @@
 - 使用线性回归识别系统认证的用户输入时间
 - Reconnaissance du temps de saisie de l'utilisateur pour l'authentification du système à l'aide de la régression linéaire
 
-Exemplo de escolhas de features para input do treinamento:
+Escolhas de features para input do treinamento:
+
+
+Exemplo 1
 <img src="keys(a).png">
+
+Exemplo 2
 <img src="keys(b).png">
