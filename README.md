@@ -9,9 +9,12 @@
 
 Escolhas de features para input do treinamento:
 
+<figure>
+  <img src="keys(a).png">
+  <figcaption>Exemplo 1</figcaption>
+</figure>
 
-Exemplo 1
-<img src="keys(a).png">
-
-Exemplo 2
-<img src="keys(b).png">
+<figure>
+  <img src="keys(b).png">
+  <figcaption>Exemplo 2</figcaption>
+</figure>
