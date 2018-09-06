@@ -1,5 +1,5 @@
 ## HeLOI
-(He)nrique (LO)gin (I)nteligente
+<b>He</b>nrique <b>LO</b>gin <b>I</b>nteligente
 
 - Reconhecimento de tempo de digitação do usuário para autenticação em sistema utilizando regressao linear
 - Recognition of user typing time for system authentication using linear regression
