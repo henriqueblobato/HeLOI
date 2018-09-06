@@ -7,11 +7,13 @@ TODO
     1.    Colocar backspace para o usuario apagar as letras
     2.    Colocar keys para ser eixo X
           Colocar keys para ser eixo Y
-          Colocar value para ser eixo Z  
-
-Valores de input
-    ESC 27
-    ENTER 13
+          Colocar value para ser eixo Z 
+          
+OBS
+    1.  Esse código só é executado pelo terminal
+    2.  Valores de input
+            ESC 27
+            ENTER 13
 '''
 import numpy as np
 import matplotlib.pyplot as plt
