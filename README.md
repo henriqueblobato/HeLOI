@@ -11,3 +11,4 @@ Escolhas de features para input do treinamento:
 
 <img src="keys(a).png">
 <img src="keys(b).png">
+<img src="keys(c).png">
