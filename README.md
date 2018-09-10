@@ -12,7 +12,9 @@ Escolhas de features para input do treinamento:
 <img src="keys(a).png">
 <img src="keys(b).png">
 <img src="keys(c).png">
-  _    _      _      ____ _____ 
+ 
+ <pre>
+ _    _      _      ____ _____ 
  | |  | |    | |    / __ \_   _|
  | |__| | ___| |   | |  | || |  
  |  __  |/ _ \ |   | |  | || |  
@@ -20,3 +22,4 @@ Escolhas de features para input do treinamento:
  |_|  |_|\___|______\____/_____|
                                 
                                 
+</pre>
