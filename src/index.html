@@ -7,11 +7,25 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
         <label>
             <h2>Digite aqui e eu captarei o tempo de duração de cada tecla</h2>
-            <input id="in"/>
+            <ul>
+                <li>
+                    <input id="in"/>
+                </li>
+            </ul>
         </label>
         
-        <ul id="lista">
-        </ul>
+        
+        <table class="table table-sm">
+            <thread>
+                <tr>
+                    <th>Tecla</th>
+                    <th>Tempo</th>
+                    <th>Duração</th>
+                </tr>
+            </thread>
+            <tbody id="tbody_tabela">
+            </tbody>
+        </table>
         
     </body>
     
@@ -44,7 +58,12 @@
             durations = [];
             var timeElapsed = current[current.length - 1] - current[0];
 
-            $("#lista").append("<li>"+ e.key+ "(" + duration(current).map(display)+") </li>")
+//          $("#lista").append("<li>"+ e.key+ "(" + duration(current).map(display)+") </li>")
+            $("#tbody_tabela").append(  "<tr>" +
+                                            "<td>" + e.key + "</td>" +
+                                            "<td>" + display(timeElapsed) + "</td>" +
+                                            "<td>" + duration(current).map(display) + "</td>" +
+                                        "</tr>")
 
             console.log([
                 ['key pressed', e.key].join(' '),
@@ -54,5 +73,4 @@
         });
         
     </script>
-    
 </html>
